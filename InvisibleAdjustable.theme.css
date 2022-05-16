@@ -3,15 +3,16 @@
  * @author Rio
  * @authorID Rio#2253
  * @description Basic Background Theme 
- * @version 2
+ * @version 3
  */
 
+/* Can be deleted, only for Icons in the Settings */
 @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css);
 
 :root {
 	--transparencycolor:			0,0,0;      																										/* 0,0,0																						*/
 	--transparencyalpha:			0.15;																												/* 0.15																							*/
-	--main-color: 				  #4a9317bd;
+	--main-color: 				  #498e18d9;
 	--textbrightest: 				222,222,222;																										/* 255,255,255 */
 	--textbrighter: 				222,222,222;																										/* 222,222,222 */
 	--textbright: 					200,200,200;																										/* 200,200,200 */
@@ -74,6 +75,7 @@ body,														/* body														*/
 #app-mount .pageWrapper-1x6lGh,								/* unihub													*/
 #app-mount .scrollerBase-_bVAAt,							/* scroller													*/
 #app-mount .scroller-2FKFPG,								/* scroller old												*/
+#app-mount .callContainer-HtHELf,							/* call container */			
 #app-mount .standardSidebarView-E9Pc3j,						/* settings	*/											
 #app-mount .contentRegion-3HkfJJ {							/* settings				content								*/
 	background: transparent;
@@ -151,4 +153,8 @@ background: var(--main-color) !important;
 .scrollableContainer-15eg7h {
     background-color: rgba(var(--transparencycolor), 0.4);
     border-radius: 16px;
+}
+
+.listItems-6eZzQ1 {
+	background: transparent;
 }
