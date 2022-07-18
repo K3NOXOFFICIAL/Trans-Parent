@@ -1,3 +1,3 @@
 #InvisibleAdjustable ---------		
 My first BetterDiscord Theme i have ever made. ---------
-Contact me on Discord Rio#2253.				
+Do you want further help contact me on Discord Rio#2253.				
