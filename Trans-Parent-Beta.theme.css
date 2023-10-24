@@ -15,17 +15,19 @@
 /* Can be deleted, only for Icons in the Settings */
 @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css);
 
+/* Can be deleted, only for Radial Status */
 @import url("https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css");
 
+/* Can be deleted, only for Settings Popout */
 @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/SettingsModal/SettingsModal.css);
 
 
-:root {
-	--settingsmodalbackground: 	transparent;			/* default:	transparent		(lowest bg color of changed windows, change it in case another theme turns them transparent)	*/
-	--settingsmodalwidth: 		960px;					/* default:	960px			(width of the settings modal, px/vw)															*/
-	--settingsmodalheight: 		80vh;					/* default:	80vh			(height of the settings modal, px/vh)															*/
-}
-
+/* Can be deleted, only for Emoji Replacer  */
+/*																				  REPLACE THIS		*/
+/*																					 ↓↓↓↓↓			*/
+@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Samsung.css);
+/*																					 ↑↑↑↑↑		  	*/
+/*																				  REPLACE THIS		*/
 /*
 	!!READ THIS!!
 	
@@ -47,13 +49,14 @@
 		→ WhatsApp
 */
 
-/*																				  REPLACE THIS		*/
-/*																					 ↓↓↓↓↓			*/
-@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Samsung.css);
-/*																					 ↑↑↑↑↑		  	*/
-/*																				  REPLACE THIS		*/
 
 
+
+:root {
+	--settingsmodalbackground: 	transparent;			/* default:	transparent		(lowest bg color of changed windows, change it in case another theme turns them transparent)	*/
+	--settingsmodalwidth: 		960px;					/* default:	960px			(width of the settings modal, px/vw)															*/
+	--settingsmodalheight: 		80vh;					/* default:	80vh			(height of the settings modal, px/vh)															*/
+}
 
 :root {
   --rs-small-spacing: 2px; /* Gap between avatar and status for members list/dms | MUST end in px */
