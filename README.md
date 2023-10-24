@@ -14,6 +14,15 @@ Transparency: Enjoy a sleek and transparent interface for a modern look.
 
 #### Radial Status Icons: Experience a unique radial design for status icons.
 
+
+
+## Screenshots
+
+![image](https://github.com/K3NOXOFFICIAL/Trans-Parent/assets/46091052/236eeae6-0b89-4194-8aa4-4b5af16dbe9b)
+![image](https://github.com/K3NOXOFFICIAL/Trans-Parent/assets/46091052/9375b8da-28d2-490a-8e00-22e3cc6bf68d)
+![image](https://github.com/K3NOXOFFICIAL/Trans-Parent/assets/46091052/8f862bf4-0958-4d62-ae22-4e43651cabbf)
+![image](https://github.com/K3NOXOFFICIAL/Trans-Parent/assets/46091052/17365a9e-a572-4546-b6bf-d314f72c2eae)
+
 ## Installation
 Download Theme: Click on the Download ZIP button or click here to download.
 
@@ -34,7 +43,6 @@ Apply Theme:
 Back in Betterdiscord, under Themes, you'll find "Trans-Parent".
 
 Click the toggle switch to enable the theme.
-
 
 
 ## Issues
