@@ -4,15 +4,16 @@
 Trans-Parent is a Betterdiscord theme designed to enhance your Discord experience with a transparent interface, improved emojis, a popout settings menu, upgraded icons for all menus, and radial status icons.
 
 ## Features
-Transparency: Enjoy a sleek and transparent interface for a modern look.
 
-#### Enhanced Emojis: Experience a richer selection of emojis for more expressive communication.
++ Transparency: Enjoy a sleek and transparent interface for a modern look.
 
-#### Popout Settings Menu: Access settings conveniently in a popout menu for quick adjustments.
++ Enhanced Emojis: Experience a richer selection of emojis for more expressive communication.
 
-#### Upgraded Icons: Enjoy better icons across all menus for improved visual aesthetics.
++ Popout Settings Menu: Access settings conveniently in a popout menu for quick adjustments.
 
-#### Radial Status Icons: Experience a unique radial design for status icons.
++ Upgraded Icons: Enjoy better icons across all menus for improved visual aesthetics.
+
++ Radial Status Icons: Experience a unique radial design for status icons.
 
 
 
@@ -24,32 +25,32 @@ Transparency: Enjoy a sleek and transparent interface for a modern look.
 ![image](https://github.com/K3NOXOFFICIAL/Trans-Parent/assets/46091052/17365a9e-a572-4546-b6bf-d314f72c2eae)
 
 ## Installation
-Download Theme: Click on the Download ZIP button or click here to download.
 
-Extract: Unzip the downloaded file.
 
-Install Theme:
+1.  Download Theme: Click on the Latest Release button or [click here](https://github.com/K3NOXOFFICIAL/Trans-Parent/releases) to download the latest release.
 
-Open Betterdiscord.
+1.  Open BetterDiscord.
 
-Go to Settings > Themes.
+2. Go to Settings > Themes.
 
-Click Open Theme Folder.
+3. Click Open Theme Folder.
 
-Move the extracted folder into this directory.
+4. Move the File into this directory.
 
-Apply Theme:
+5. Back in Betterdiscord, under Settings > Themes, you'll find "Trans-Parent" or "Trans-Parent-Beta".
 
-Back in Betterdiscord, under Themes, you'll find "Trans-Parent".
-
-Click the toggle switch to enable the theme.
-
+6. Click the toggle switch to enable the theme.
+<br>
 
 ## Issues
 If you encounter any issues or have suggestions for improvement, please create a new issue here.
 
+<br>
+
 ### Contributions
 Contributions are welcome! If you'd like to make enhancements or fix bugs, please fork the repository and submit a pull request.
+
+<br>
 
 ### License
 This theme is licensed under the MIT License.
