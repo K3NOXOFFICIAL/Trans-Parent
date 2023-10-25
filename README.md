@@ -1,9 +1,8 @@
-# Trans-Parent Betterdiscord Theme
 
-## Overview
+# Overview
 Trans-Parent is a Betterdiscord theme designed to enhance your Discord experience with a transparent interface, improved emojis, a popout settings menu, upgraded icons for all menus, and radial status icons.
 
-## Features
+# Features
 
 + Transparency: Enjoy a sleek and transparent interface for a modern look.
 
@@ -17,14 +16,14 @@ Trans-Parent is a Betterdiscord theme designed to enhance your Discord experienc
 
 
 
-## Screenshots
+# Screenshots
 
 ![image](https://github.com/K3NOXOFFICIAL/Trans-Parent/assets/46091052/236eeae6-0b89-4194-8aa4-4b5af16dbe9b)
 ![image](https://github.com/K3NOXOFFICIAL/Trans-Parent/assets/46091052/9375b8da-28d2-490a-8e00-22e3cc6bf68d)
 ![image](https://github.com/K3NOXOFFICIAL/Trans-Parent/assets/46091052/8f862bf4-0958-4d62-ae22-4e43651cabbf)
 ![image](https://github.com/K3NOXOFFICIAL/Trans-Parent/assets/46091052/17365a9e-a572-4546-b6bf-d314f72c2eae)
 
-## Installation
+# Installation
 
 
 1.  Download Theme: Click on the Latest Release button or [click here](https://github.com/K3NOXOFFICIAL/Trans-Parent/releases) to download the latest release.
@@ -42,16 +41,16 @@ Trans-Parent is a Betterdiscord theme designed to enhance your Discord experienc
 6. Click the toggle switch to enable the theme.
 <br>
 
-## Issues
+# Issues
 If you encounter any issues or have suggestions for improvement, please create a new issue here.
 
 <br>
 
-### Contributions
+# Contributions
 Contributions are welcome! If you'd like to make enhancements or fix bugs, please fork the repository and submit a pull request.
 
 <br>
 
-### License
+# License
 This theme is licensed under the MIT License.
 
