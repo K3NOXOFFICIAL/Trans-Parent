@@ -4,15 +4,16 @@ Trans-Parent is a Betterdiscord theme designed to enhance your Discord experienc
 
 # Features
 
-+ Transparency: Enjoy a sleek and Fully transparent / Blurred interface for a modern look.
 
-+ Enhanced Emojis: Experience a richer selection of emojis for more expressive communication.
+| Theme Version:  	| Stable 	| Beta 	|   Description   |
+|-----------------	|--------	|------	|------|
+| Transparency    	| ✅      	| ✅    	| Enjoy a sleek and Fully transparent interface for a modern look. |
+| Blur            	| ✅      	| ✅    	| Enjoy a Blurred interface for an even better look. |
+| Enhanced Emojis 	| ❌      	| ✅    	| Experience a richer selection of emojis for more expressive communication. |
+| Popout Settings 	| ❌      	| ✅    	| Access settings conveniently in a popout menu for quick adjustments. |
+| Upgraded Icons  	| ❌      	| ✅    	| Enjoy better icons across all menus for improved visual aesthetics. |
+| Radial Status   	| ❌      	| ✅    	| Experience a unique radial design for status icons. |
 
-+ Popout Settings Menu: Access settings conveniently in a popout menu for quick adjustments.
-
-+ Upgraded Icons: Enjoy better icons across all menus for improved visual aesthetics.
-
-+ Radial Status Icons: Experience a unique radial design for status icons.
 
 
 
