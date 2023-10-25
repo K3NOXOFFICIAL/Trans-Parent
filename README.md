@@ -26,7 +26,7 @@ Trans-Parent is a Betterdiscord theme designed to enhance your Discord experienc
 # Installation
 
 
-1.  Download Theme: Click on the Latest Release button or [click here](https://github.com/K3NOXOFFICIAL/Trans-Parent/releases) to download the latest release.
+1.  Download Theme: Click here for the Latest [Beta Release](https://github.com/k3noxofficial/Trans-Parent/releases/latest/download/Trans-Parent-Beta.theme.css) and [Stable Release](https://github.com/k3noxofficial/Trans-Parent/releases/latest/download/Trans-Parent.theme.css), or press on the Latest Release button.
 
 1.  Open BetterDiscord.
 
