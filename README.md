@@ -31,7 +31,7 @@ Trans-Parent is a Betterdiscord theme designed to enhance your Discord experienc
 
 1.  Download Theme: Click here for the Latest [Beta Release](https://github.com/k3noxofficial/Trans-Parent/releases/latest/download/Trans-Parent-Beta.theme.css) and [Stable Release](https://github.com/k3noxofficial/Trans-Parent/releases/latest/download/Trans-Parent.theme.css), or press on the Latest Release button.
 
-1.  Open BetterDiscord.
+1. Open BetterDiscord.
 
 2. Go to Settings > Themes.
 
@@ -42,6 +42,12 @@ Trans-Parent is a Betterdiscord theme designed to enhance your Discord experienc
 5. Back in Betterdiscord, under Settings > Themes, you'll find "Trans-Parent" or "Trans-Parent-Beta".
 
 6. Click the toggle switch to enable the theme.
+
+7. Go To Settings > BetterDiscord Settings > Window preferences > Enable Transparency.
+
+8. Restart Discord.
+
+9. If You want a Blurred Background Follow The Additional Installation For Blur
 <br>
 
 
