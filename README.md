@@ -47,7 +47,7 @@ Trans-Parent is a Betterdiscord theme designed to enhance your Discord experienc
 
 8. Restart Discord.
 
-9. If You want a Blurred Background Follow The Additional Installation For Blur
+ 9. If You want a Blurred Background Follow The Additional Installation For Blur
 <br>
 
 
