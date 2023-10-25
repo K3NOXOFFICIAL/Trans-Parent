@@ -18,15 +18,9 @@ Trans-Parent is a Betterdiscord theme designed to enhance your Discord experienc
 
 
 # Screenshots
-![image](https://github.com/K3NOXOFFICIAL/Trans-Parent/assets/46091052/e2902196-ac04-4143-8014-190e2a60db0e)
-![image](https://github.com/K3NOXOFFICIAL/Trans-Parent/assets/46091052/9375b8da-28d2-490a-8e00-22e3cc6bf68d)
-![image](https://github.com/K3NOXOFFICIAL/Trans-Parent/assets/46091052/a4c80279-aab5-468c-9d2c-6c1666a8189b)
-![image](https://github.com/K3NOXOFFICIAL/Trans-Parent/assets/46091052/17365a9e-a572-4546-b6bf-d314f72c2eae)
 
 
-
-
-
+<img src="https://github.com/K3NOXOFFICIAL/Trans-Parent/assets/46091052/e2902196-ac04-4143-8014-190e2a60db0e" width="45%"></img> <img src="https://github.com/K3NOXOFFICIAL/Trans-Parent/assets/46091052/9375b8da-28d2-490a-8e00-22e3cc6bf68d" width="45%"></img> <img src="https://github.com/K3NOXOFFICIAL/Trans-Parent/assets/46091052/a4c80279-aab5-468c-9d2c-6c1666a8189b" width="45%"></img> <img src="https://github.com/K3NOXOFFICIAL/Trans-Parent/assets/46091052/17365a9e-a572-4546-b6bf-d314f72c2eae" width="45%"></img> 
 
 # Installation
 
