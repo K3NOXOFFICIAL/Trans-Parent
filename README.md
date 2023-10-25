@@ -4,7 +4,7 @@ Trans-Parent is a Betterdiscord theme designed to enhance your Discord experienc
 
 # Features
 
-+ Transparency: Enjoy a sleek and transparent interface for a modern look.
++ Transparency: Enjoy a sleek and Fully transparent / Blurred interface for a modern look.
 
 + Enhanced Emojis: Experience a richer selection of emojis for more expressive communication.
 
@@ -17,14 +17,17 @@ Trans-Parent is a Betterdiscord theme designed to enhance your Discord experienc
 
 
 # Screenshots
-
-![image](https://github.com/K3NOXOFFICIAL/Trans-Parent/assets/46091052/236eeae6-0b89-4194-8aa4-4b5af16dbe9b)
+![image](https://github.com/K3NOXOFFICIAL/Trans-Parent/assets/46091052/e2902196-ac04-4143-8014-190e2a60db0e)
 ![image](https://github.com/K3NOXOFFICIAL/Trans-Parent/assets/46091052/9375b8da-28d2-490a-8e00-22e3cc6bf68d)
-![image](https://github.com/K3NOXOFFICIAL/Trans-Parent/assets/46091052/8f862bf4-0958-4d62-ae22-4e43651cabbf)
+![image](https://github.com/K3NOXOFFICIAL/Trans-Parent/assets/46091052/a4c80279-aab5-468c-9d2c-6c1666a8189b)
 ![image](https://github.com/K3NOXOFFICIAL/Trans-Parent/assets/46091052/17365a9e-a572-4546-b6bf-d314f72c2eae)
 
-# Installation
 
+
+
+
+
+# Installation
 
 1.  Download Theme: Click here for the Latest [Beta Release](https://github.com/k3noxofficial/Trans-Parent/releases/latest/download/Trans-Parent-Beta.theme.css) and [Stable Release](https://github.com/k3noxofficial/Trans-Parent/releases/latest/download/Trans-Parent.theme.css), or press on the Latest Release button.
 
@@ -39,6 +42,20 @@ Trans-Parent is a Betterdiscord theme designed to enhance your Discord experienc
 5. Back in Betterdiscord, under Settings > Themes, you'll find "Trans-Parent" or "Trans-Parent-Beta".
 
 6. Click the toggle switch to enable the theme.
+<br>
+
+
+# Additional Installation For Blur
+If you want the Background Blurred you additionally need to download the MicaForEveryone App which now works out of the box with our Theme.
+
+[MicaForEveryone](https://github.com/MicaForEveryone/MicaForEveryone/releases)
+
+#### Just don't forget to toggle Blur behind in the Global Rules in the MicaForEveryone Settings.
+
+<img src="https://github.com/K3NOXOFFICIAL/Trans-Parent/assets/46091052/2d2e2f30-0bf6-4013-9f90-36b8abd1ee56" alt="Girl in a jacket" style="width:400px;height:303px;">
+
+
+
 <br>
 
 # Issues
