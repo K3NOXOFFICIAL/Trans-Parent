@@ -103,7 +103,7 @@
 
 
 .theme-light,
-.theme-dark {
+#app-mount {
 	--interactive-active: rgb(var(--textbrightest));
 	--interactive-muted: rgb(var(--textdarkest));
 	--background-accent: rgba(var(--transparencycolor), .1);
