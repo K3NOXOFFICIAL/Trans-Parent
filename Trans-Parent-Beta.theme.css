@@ -2,7 +2,7 @@
  * @name Trans-Parent Beta
  * @description Transparent Theme with Better UI and Icons.
  * @author OFFRICHKID
- * @version 1.0.6 Beta
+ * @version 1.0.7 Beta
  * @authorId 1124814317498413076
  * @invite FyM7PU8w
  * @donate https://www.paypal.me/k3noxofficial
@@ -64,8 +64,8 @@
 	--interactive-muted: rgb(var(--textdarkest)); /* Muted interactive element color */
 	--background-accent: rgba(var(--transparencycolor), .1); /* Accent background color with transparency */
 	--background-primary: rgba(var(--transparencycolor), .2); /* Primary background color with transparency */
-	--background-secondary: rgba(var(--transparencycolor), .3); /* Secondary background color with transparency */
-	--background-secondary-alt: rgba(var(--transparencycolor), .0); /* Alternative secondary background color with transparency */
+	--background-secondary: rgba(var(--transparencycolor), .16); /* Secondary background color with transparency */
+	--background-secondary-alt: rgba(var(--transparencycolor), .085); /* Alternative secondary background color with transparency */
 	--background-tertiary: rgba(var(--transparencycolor), .3); /* Tertiary background color with transparency */
 	--background-floating: rgba(var(--transparencycolor), .5); /* Floating background color with transparency */
 	--background-mobile-primary: rgba(var(--transparencolor), .2); /* Mobile primary background color with transparency */
