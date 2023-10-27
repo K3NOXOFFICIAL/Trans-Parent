@@ -2,7 +2,7 @@
  * @name Trans-Parent Beta
  * @description Transparent Theme with Better UI and Icons.
  * @author OFFRICHKID
- * @version 1.0.7 Beta
+ * @version 1.0.8 Beta
  * @authorId 1124814317498413076
  * @invite FyM7PU8w
  * @donate https://www.paypal.me/k3noxofficial
@@ -36,23 +36,30 @@
 	--textdarkest: 90,90,90; /* Darkest text color */
 	--background: url(https://choosie.de/lol.jpg); /* Background image URL */
 	--backgroundposition: center; /* Background position */
-	--backgroundsize: cover; /* Background size */
+	--backgroundsize: cover; /* Background size */	
 }
+
+
+/* Main Text Settings */
+.name__8d1ec { color: rgb(222,222,222); }  /* Muted Text Color */
+
+
+
 
 /* Gradients for Light and Dark Themes */
 .theme-light{
 	--interactive-active: rgb(var(--textbrightest)); /* Active interactive element color */
 	--interactive-muted: rgb(var(--textdarkest)); /* Muted interactive element color */
-	--background-accent: rgba(var(--transparencycolor), .0); /* Accent background color with transparency */
-	--background-primary: rgba(var(--transparencycolor), .0); /* Primary background color with transparency */
+	--background-accent: rgba(var(--transparencycolor), 0); /* Accent background color with transparency */
+	--background-primary: rgba(var(--transparencycolor), 0.04); /* Primary background color with transparency */
 	--background-secondary: rgba(var(--transparencycolor), .0); /* Secondary background color with transparency */
-	--background-secondary-alt: rgba(var(--transparencycolor), .0); /* Alternative secondary background color with transparency */
-	--background-tertiary: rgba(var(--transparencycolor), .0); /* Tertiary background color with transparency */
+	--background-secondary-alt: rgba(var(--transparencycolor), .03); /* Alternative secondary background color with transparency */
+	--background-tertiary: rgba(var(--transparencycolor), .04); /* Tertiary background color with transparency */
 	--background-floating: rgba(var(--transparencycolor), .0); /* Floating background color with transparency */
 	--background-mobile-primary: rgba(var(--transparencolor), .0); /* Mobile primary background color with transparency */
 	--background-mobile-secondary: rgba(var(--transparencolor), .0); /* Mobile secondary background color with transparency */
-	--background-modifier-accent: rgba(var(--textbrightest),.0); /* Modifier accent color with transparency */
-	--background-message-automod: rgba(var(--dangercolor),.00); /* Automated message background color with transparency */
+	--background-modifier-accent: rgba(var(--textbrightest),.2); /* Modifier accent color with transparency */
+	--background-message-automod: rgba(var(--dangercolor),.0); /* Automated message background color with transparency */
 	--background-message-automod-hover: rgba(var(--dangercolor),.0); /* Hovered automated message background color with transparency */
 	--channeltextarea-background: rgba(var(--transparencolor), .0); /* Channel textarea background color with transparency */
 	--input-background: rgba(var(--transparencolor), .0); /* Input background color with transparency */
