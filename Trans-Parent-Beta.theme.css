@@ -11,37 +11,11 @@
  * @updateUrl http://choosie.de/Trans-Parent-Beta.theme.css
  */
 
-@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css);
-@import url("https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css");
-@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/SettingsModal/SettingsModal.css);
 
-@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Samsung.css);
+/* Extension Settings in Row 110 */
 
-:root {
-	--settingsmodalbackground: transparent;
-	--settingsmodalwidth: 960px;
-	--settingsmodalheight: 80vh;
-}
 
-/* Radial Status Customizations */
-:root {
-	--rs-small-spacing: 2px;
-	--rs-medium-spacing: 3px;
-	--rs-large-spacing: 4px;
-	--rs-small-width: 2px;
-	--rs-medium-width: 3px;
-	--rs-large-width: 4px;
-	--rs-avatar-shape: 50%;
-	--rs-online-color: #43b581;
-	--rs-idle-color: #faa61a;
-	--rs-dnd-color: #f04747;
-	--rs-offline-color: #636b75;
-	--rs-streaming-color: #643da7;
-	--rs-invisible-color: #747f8d;
-	--rs-phone-color: var(--rs-online-color);
-	--rs-phone-visible: block;
-}
-
+/* Main Theme Settings */
 :root {
 	--transparencycolor: 0,0,0;
 	--transparencyalpha: 0.55;
@@ -56,10 +30,9 @@
 	--background: url(https://choosie.de/lol.jpg);
 	--backgroundposition: center;
 	--backgroundsize: cover;
-	background: var(--bg-overlay-chat,var(--background-primary));
 }
 
-/* Light and Dark Themes */
+/* Gradients */
 .theme-light, .theme-dark {
 	--interactive-active: rgb(var(--textbrightest));
 	--interactive-muted: rgb(var(--textdarkest));
@@ -109,8 +82,7 @@ body::before, body::after {
 	pointer-events: none;
 	z-index: -1;
 }
-body::before {
-	background: var(--background) var(--backgroundposition)/var(--backgroundsize);
+body::before {	
 }
 
 /* Main Color Objects */
@@ -131,3 +103,42 @@ body::before {
 .iconBadge-32fMme.participating-2Z81oO { background-color: var(--main-color); }
 .circleIconButton-1VxDrg { color: var(--main-color); }
 .rtcConnectionQualityFine-3zZrSa .pingForeground-1BRBTc, .rtcConnectionStatusConnected-1c73OK { color: var(--main-color); }
+
+
+
+
+/* Extension Settings */
+
+/* Extension Imports: Place // infront of extensions you don't want. */
+/* Settings Icons  */      @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css);
+/* Radial Status   */      @import url("https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css");
+/* Popout Settings */      @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/SettingsModal/SettingsModal.css);
+/* Better Emojis   */      @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Samsung.css);
+
+
+/* Popout Extension Customization */
+:root {
+	--settingsmodalbackground: transparent;
+	--settingsmodalwidth: 960px;
+	--settingsmodalheight: 80vh;
+}
+
+
+/* Radial Status Customizations */
+:root {
+	--rs-small-spacing: 2px;
+	--rs-medium-spacing: 3px;
+	--rs-large-spacing: 4px;
+	--rs-small-width: 2px;
+	--rs-medium-width: 3px;
+	--rs-large-width: 4px;
+	--rs-avatar-shape: 50%;
+	--rs-online-color: #43b581;
+	--rs-idle-color: #faa61a;
+	--rs-dnd-color: #f04747;
+	--rs-offline-color: #636b75;
+	--rs-streaming-color: #643da7;
+	--rs-invisible-color: #747f8d;
+	--rs-phone-color: var(--rs-online-color);
+	--rs-phone-visible: block;
+}
