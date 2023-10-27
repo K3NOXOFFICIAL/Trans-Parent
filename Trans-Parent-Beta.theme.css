@@ -11,99 +11,56 @@
  * @updateUrl http://choosie.de/Trans-Parent-Beta.theme.css
  */
 
-
-/* Can be deleted, only for Icons in the Settings */
 @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css);
-
-/* Can be deleted, only for Radial Status */
 @import url("https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css");
-
-/* Can be deleted, only for Settings Popout */
 @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/SettingsModal/SettingsModal.css);
 
-
-/* Can be deleted, only for Emoji Replacer  */
-/*																				  REPLACE THIS		*/
-/*																					 ↓↓↓↓↓			*/
 @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Samsung.css);
-/*																					 ↑↑↑↑↑		  	*/
-/*																				  REPLACE THIS		*/
-/*
-	!!READ THIS!!
-	
-	This theme lets you swap the default emojis of discord with the emojis of a provider of your choice.
-	To change the provider simply swap the marked word in the import url down below with a supported provider listed below.
-	The name of the provider is CASE SENSITIVE, meaning you have to write it exactly like it's written below.
-	Correct: Apple
-	False: apple, APPLE, aPpLe
-	
-	Supported Providers:
-		→ Apple
-		→ Facebook
-		→ Google
-		→ JoyPixels
-		→ Microsoft
-		→ OpenMoji
-		→ Samsung
-		→ Toss
-		→ WhatsApp
-*/
-
-
-
 
 :root {
-	--settingsmodalbackground: 	transparent;			/* default:	transparent		(lowest bg color of changed windows, change it in case another theme turns them transparent)	*/
-	--settingsmodalwidth: 		960px;					/* default:	960px			(width of the settings modal, px/vw)															*/
-	--settingsmodalheight: 		80vh;					/* default:	80vh			(height of the settings modal, px/vh)															*/
+	--settingsmodalbackground: transparent;
+	--settingsmodalwidth: 960px;
+	--settingsmodalheight: 80vh;
+}
+
+/* Radial Status Customizations */
+:root {
+	--rs-small-spacing: 2px;
+	--rs-medium-spacing: 3px;
+	--rs-large-spacing: 4px;
+	--rs-small-width: 2px;
+	--rs-medium-width: 3px;
+	--rs-large-width: 4px;
+	--rs-avatar-shape: 50%;
+	--rs-online-color: #43b581;
+	--rs-idle-color: #faa61a;
+	--rs-dnd-color: #f04747;
+	--rs-offline-color: #636b75;
+	--rs-streaming-color: #643da7;
+	--rs-invisible-color: #747f8d;
+	--rs-phone-color: var(--rs-online-color);
+	--rs-phone-visible: block;
 }
 
 :root {
-  --rs-small-spacing: 2px; /* Gap between avatar and status for members list/dms | MUST end in px */
-  --rs-medium-spacing: 3px; /* Gap between avatar and status for User popout | MUST end in px */
-  --rs-large-spacing: 4px; /* Gap between avatar and status for User profiles | MUST end in px */
-
-  --rs-small-width: 2px; /* Thickness of status border for members list/dms | MUST end in px */
-  --rs-medium-width: 3px; /* Thickness of status border for User popout | MUST end in px */
-  --rs-large-width: 4px; /* Thickness of status border for User profile | MUST end in px */
-
-  --rs-avatar-shape: 50%; /* 50% for round - 0% for square */
-
-  --rs-online-color: #43b581; /* Colour for online status */
-  --rs-idle-color: #faa61a; /* Colour for idle status */
-  --rs-dnd-color: #f04747; /* Colour for dnd status */
-  --rs-offline-color: #636b75; /* Colour for offline status */
-  --rs-streaming-color: #643da7; /* Colour for streaming status */
-  --rs-invisible-color: #747f8d; /* Colour for invisible status - Note: this will only show for your own invisibility */
-  --rs-phone-color: var(--rs-online-color); /* Colour of the ring and phone icon when a user is on their phone |  */
-
-  --rs-phone-visible: block; /* Visibility of the phone icon next to a users avatar. | block = visible | none = hidden */
-}
-
-
-:root {
-	--transparencycolor:			0,0,0;      																										/* 0,0,0																						*/
-	--transparencyalpha:			0.15;																												/* 0.15																							*/
-	--main-color: 				  #7ca2c5;				/* A Color which matches your background */
-	--rgb-main-color:               124, 162, 197;		  /* Same Color as above but writen as rgb value */
-	--textbrightest: 				222,222,222;																										/* 255,255,255 */
-	--textbrighter: 				222,222,222;																										/* 222,222,222 */
-	--textbright: 					200,200,200;																										/* 200,200,200 */
-	--textdark: 					160,160,160;																										/* 160,160,160 */
-	--textdarker: 					125,125,125;																										/* 125,125,125 */
-	--textdarkest: 					90,90,90;																											/* 90,90,90 */
-	
-	--background:					url(http://choosie.de/lol.jpg);
-	--backgroundposition:			center;
-	--backgroundsize:				cover;
+	--transparencycolor: 0,0,0;
+	--transparencyalpha: 0.55;
+	--main-color: #7ca2c5;
+	--rgb-main-color: 124, 162, 197;
+	--textbrightest: 222,222,222;
+	--textbrighter: 222,222,222;
+	--textbright: 200,200,200;
+	--textdark: 160,160,160;
+	--textdarker: 125,125,125;
+	--textdarkest: 90,90,90;
+	--background: url(https://choosie.de/lol.jpg);
+	--backgroundposition: center;
+	--backgroundsize: cover;
 	background: var(--bg-overlay-chat,var(--background-primary));
-    
 }
 
-
-
-.theme-light,
-.theme-dark {
+/* Light and Dark Themes */
+.theme-light, .theme-dark {
 	--interactive-active: rgb(var(--textbrightest));
 	--interactive-muted: rgb(var(--textdarkest));
 	--background-accent: rgba(var(--transparencycolor), .1);
@@ -123,47 +80,26 @@
 	--elevation-high: 0 2px 10px 0 rgba(var(--transparencycolor), .3);
 }
 
-
 /* Background Opener */
-
-
-body,														/* body														*/
-#app-mount .app-3xd6d0,										/* app					container							*/
-#app-mount .scroller-WSmht3,
-#app-mount .app-2CXKsg,										/* app					inner								*/
-#app-mount .loading-1yrGTe,									/* app					inner loading						*/
-#app-mount .wrapper-3AZUiP,									/* app					errorscreen							*/
-#app-mount .bg-1QIAus,										/* app					background							*/
-#app-mount .layer-86YKbF,									/* layer				container							*/
-#app-mount .container-2o3qEW,								/* layer				container							*/
-#app-mount .container-1NXEtd,								/* channels				inner								*/
-#app-mount .privateChannels-oVe7HL,							/* dmchannels												*/
-#app-mount .panels-3wFtMD > *,								/* account/voice		inner								*/
-#app-mount .chat-2ZfjoI,									/* chat					container							*/
-#app-mount .container-3XgAHv,								/* chat					thread sidebar						*/
-#app-mount .wrapper-3HVHpV,									/* chat					messages loading					*/
-#app-mount .noChannel-Z1DQK7,								/* nochannel												*/
-#app-mount .members-3WRCEx,									/* members													*/
-#app-mount .members-3WRCEx > div,							/* members				content								*/
-#app-mount .content-3_h0XI,									/* unavailable												*/
-#app-mount .container-2cd8Mz,								/* peoples													*/
-#app-mount .container-1oAagU,								/* peoples				activity list						*/
-#app-mount .applicationStore-2nk7Lo,						/* nitro													*/
-#app-mount .pageWrapper-2PwDoS,								/* guilddiscovery											*/
-#app-mount .pageWrapper-1x6lGh,								/* unihub												    */
-#app-mount .scroller-2FKFPG,								/* scroller old												*/
-#app-mount .callContainer-HtHELf,							/* call container 											*/
-#app-mount .standardSidebarView-E9Pc3j,						/* settings													*/			
-#app-mount .contentRegion-3HkfJJ {							/* settings				content								*/
+body, #app-mount .app-3xd6d0, #app-mount .scroller-WSmht3,
+#app-mount .app-2CXKsg, #app-mount .loading-1yrGTe,
+#app-mount .wrapper-3AZUiP, #app-mount .bg-1QIAus,
+#app-mount .layer-86YKbF, #app-mount .container-2o3qEW,
+#app-mount .container-1NXEtd, #app-mount .privateChannels-oVe7HL,
+#app-mount .panels-3wFtMD > *, #app-mount .chat-2ZfjoI,
+#app-mount .container-3XgAHv, #app-mount .wrapper-3HVHpV,
+#app-mount .noChannel-Z1DQK7, #app-mount .members-3WRCEx,
+#app-mount .members-3WRCEx > div, #app-mount .content-3_h0XI,
+#app-mount .container-2cd8Mz, #app-mount .container-1oAagU,
+#app-mount .applicationStore-2nk7Lo, #app-mount .pageWrapper-2PwDoS,
+#app-mount .pageWrapper-1x6lGh, #app-mount .scroller-2FKFPG,
+#app-mount .callContainer-HtHELf, #app-mount .standardSidebarView-E9Pc3j,
+#app-mount .contentRegion-3HkfJJ {
 	background: transparent ;
 }
 
-
-
-/* 		Background Img		 */
-
-body::before,
-body::after {
+/* Background Image */
+body::before, body::after {
 	content: "";
 	position: fixed;
 	top: 0;
@@ -177,121 +113,21 @@ body::before {
 	background: var(--background) var(--backgroundposition)/var(--backgroundsize);
 }
 
-
 /* Main Color Objects */
-
-.item-2LIpTv {
-background: var(--main-color) !important;
-}
-
-.numberBadge-37OJ3S.base-3IDx3L.baseShapeRound-3epLEv {
-    background-color: var(--main-color) !important;
-}
-
+.item-2LIpTv { background: var(--main-color) !important; }
+.numberBadge-37OJ3S.base-3IDx3L.baseShapeRound-3epLEv { background-color: var(--main-color) !important; }
 .wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub, .wrapper-3kah-n:hover .childWrapper-1j_1ub {
-    color: #fff;
-    background-color: var(--main-color);
-}
-
-.popoutBanner-3cqRD9 {
-    background-color: var(--main-color) !important;
-}
-
-.barFill-2Bh7CX {
-    background: var(--main-color);
-    height: 100%;
-}
-
-.colorWarning-3oV0Ge {
-    background-color: var(--main-color);
-    color: #e2dbdb;
-}
-
-.live-1V2D-f.liveSmall-1Urjcy.textBadge-1fdDPJ.base-3IDx3L.liveShapeRound-2Tgi2d{
-	background-color: var(--main-color) !important;
-}
-
-.iconBadge-32fMme {
-    background-color: var(--main-color);
-}
-
-.expandedFolderIconWrapper-3RwQpD {
-	background-color: rgba(var(--rgb-main-color), .6);
-}
-
-.expandedFolderBackground-1kSAf6 {
-	background-color: rgba(var(--rgb-main-color), 0.2);
-	
-}
-
-.closedFolderIconWrapper-3tRb2d {
+	color: #fff;
 	background-color: var(--main-color);
 }
-
-.iconBadge-32fMme.participating-2Z81oO {
-    background-color: var(--main-color);
-}
-
-.circleIconButton-1VxDrg {
-    color: var(--main-color);
-}
-
-.rtcConnectionQualityFine-3zZrSa .pingForeground-1BRBTc,
-.rtcConnectionStatusConnected-1c73OK {
-    color: var(--main-color);
-}
-
-
-
-
-
-
-
-
-/* Allgemeine Tranparenz */
-
-.userPopout-2j1gM4 {
-     background: rgba(var(--transparencycolor), 0.6)
-}
-
-.body-16rSsp.inset-SbsSFp {
-	background: rgba(0, 0, 0, 0);
-}
-
-.menu-1QACrS {
-	background: rgba(var(--transparencycolor), 0.6);
-}
-
-.scrollableContainer-15eg7h {
-    background-color: rgba(var(--transparencycolor), 0.4);
-    border-radius: 16px;
-}
-
-.listItems-6eZzQ1 {
-	background: transparent;
-}
-
-.container-8Futzw.thin-31rlnD.scrollerBase-_bVAAt {
-	background: rgba(var(--transparencycolor), .7) !important;
-} 
-
-.scroller-3X7KbA {
-    background-color: transparent !important;
-}
-
-.container-YkUktl {
-	background-color: rgba(var(--transparencycolor), ) !important;
-}
-
-
-
-/* Borders */
-
-.sidebar-1tnWFu {
-	border-radius: unset !important;
-    overflow: hidden;
-}
-
-.notice-2HEN-u {
-	border-radius: 0px 0px 0px 0px;
-}
+.popoutBanner-3cqRD9 { background-color: var(--main-color) !important; }
+.barFill-2Bh7CX { background: var(--main-color); height: 100%; }
+.colorWarning-3oV0Ge { background-color: var(--main-color); color: #e2dbdb; }
+.live-1V2D-f.liveSmall-1Urjcy.textBadge-1fdDPJ.base-3IDx3L.liveShapeRound-2Tgi2d{ background-color: var(--main-color) !important; }
+.iconBadge-32fMme { background-color: var(--main-color); }
+.expandedFolderIconWrapper-3RwQpD { background-color: rgba(var(--rgb-main-color), .6); }
+.expandedFolderBackground-1kSAf6 { background-color: rgba(var(--rgb-main-color), 0.2); }
+.closedFolderIconWrapper-3tRb2d { background-color: var(--main-color); }
+.iconBadge-32fMme.participating-2Z81oO { background-color: var(--main-color); }
+.circleIconButton-1VxDrg { color: var(--main-color); }
+.rtcConnectionQualityFine-3zZrSa .pingForeground-1BRBTc, .rtcConnectionStatusConnected-1c73OK { color: var(--main-color); }
