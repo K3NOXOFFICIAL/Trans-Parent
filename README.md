@@ -5,14 +5,15 @@ Trans-Parent is a Betterdiscord theme designed to enhance your Discord experienc
 # Features
 
 
-| Theme Version:  	| Stable 	| Beta 	|   Description   |
-|-----------------	|--------	|------	|------|
-| Transparency    	| ✅      	| ✅    	| Enjoy a sleek and Fully transparent interface for a modern look. |
-| Blur            	| ✅      	| ✅    	| Enjoy a Blurred interface for an even better look. |
-| Enhanced Emojis 	| ❌      	| ✅    	| Experience a richer selection of emojis for more expressive communication. |
-| Popout Settings 	| ❌      	| ✅    	| Access settings conveniently in a popout menu for quick adjustments. |
-| Upgraded Icons  	| ❌      	| ✅    	| Enjoy better icons across all menus for improved visual aesthetics. |
-| Radial Status   	| ❌      	| ✅    	| Experience a unique radial design for status icons. |
+| Theme Version:    	| Stable 	| Beta 	|   Description   |
+|-----------------  	|--------	|------	|------|
+| Transparency      	| ✅      	| ✅    	| Enjoy a sleek and Fully transparent interface for a modern look. |
+| Blur              	| ✅      	| ✅    	| Enjoy a Blurred interface for an even better look. |
+| Dark & Light Theme | ❌      	| ✅    	| Support For Switching Dark & Light Theme in the Settings. <br> Only Use Light Theme For Setup with Blur . |
+| Enhanced Emojis 	  | ❌      	| ✅    	| Experience a richer selection of emojis for more expressive communication. |
+| Popout Settings 	  | ❌      	| ✅    	| Access settings conveniently in a popout menu for quick adjustments. |
+| Upgraded Icons  	  | ❌      	| ✅    	| Enjoy better icons across all menus for improved visual aesthetics. |
+| Radial Status     	| ❌      	| ✅    	| Experience a unique radial design for status icons. |
 
 
 
@@ -47,11 +48,11 @@ Trans-Parent is a Betterdiscord theme designed to enhance your Discord experienc
 
 
 # Additional Installation For Blur
-If you want the Background Blurred you additionally need to download the MicaForEveryone App which now works out of the box with our Theme.
+If you want the Background Blurred you additionally need to download the MicaForEveryone App, <br> which now works out of the box with our Theme.
 
 [MicaForEveryone](https://github.com/MicaForEveryone/MicaForEveryone/releases)
 
-#### Just don't forget to toggle Blur behind in the Global Rules in the MicaForEveryone Settings.
+#### Just don't forget to toggle Blur behind in the Global Rules in the MicaForEveryone Settings, <br> as well as to toggle the Light Theme in the settings.
 
 <img src="https://github.com/K3NOXOFFICIAL/Trans-Parent/assets/46091052/2d2e2f30-0bf6-4013-9f90-36b8abd1ee56" alt="Girl in a jacket" style="width:400px;height:303px;">
 
