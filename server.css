@@ -105,31 +105,13 @@ barFill-2Bh7CX { background: var(--main-color); height: 100%; }
 .circleIconButton-1VxDrg { color: var(--main-color); }
 .rtcConnectionQualityFine-3zZrSa .pingForeground-1BRBTc, .rtcConnectionStatusConnected-1c73OK { color: var(--main-color); }
 
-/* Radial Status Customizations */
-:root {
-	--rs-small-spacing: 2px; /* Spacing for small radial status */
-	--rs-medium-spacing: 3px; /* Spacing for medium radial status */
-	--rs-large-spacing: 4px; /* Spacing for large radial status */
-	--rs-small-width: 2px; /* Width for small radial status */
-	--rs-medium-width: 3px; /* Width for medium radial status */
-	--rs-large-width: 4px; /* Width for large radial status */
-	--rs-avatar-shape: 50%; /* Shape of avatar in radial status */
-	--rs-online-color: #43b581; /* Color for online status */
-	--rs-idle-color: #faa61a; /* Color for idle status */
-	--rs-dnd-color: #f04747; /* Color for do not disturb status */
-	--rs-offline-color: #636b75; /* Color for offline status */
-	--rs-streaming-color: #643da7; /* Color for streaming status */
-	--rs-invisible-color: #747f8d; /* Color for invisible status (only visible to you) */
-	--rs-phone-color: var(--rs-online-color); /* Color for phone status */
-	--rs-phone-visible: block; /* Visibility of phone icon next to user avatar */
-}
-
-
 /* Popout Extension Customization */
 :root {
 	--settingsmodalbackground: transparent; /* Background for popout settings */
 	--settingsmodalwidth: 960px; /* Width for popout settings */
 	--settingsmodalheight: 80vh; /* Height for popout settings */
 }
+
+
 
 
