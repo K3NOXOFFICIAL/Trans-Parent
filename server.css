@@ -22,27 +22,10 @@
 /* Better Emojis   */
 @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Samsung.css);
 
-/* Main Theme Settings */
-:root {
-	--transparencycolor: 0,0,0; /* Color for transparency (black) */
-	--transparencyalpha: 0.55; /* Transparency level (0.55) */
-	--main-color: #ffffff; /* Main color used for various elements */
-	--textcolor: 0,255,0; /* Main color used for various elements */
-	--rgb-main-color: 124, 162, 197; /* Main color in RGB format */
-	--textbrightest: 222,222,222; /* Brightest text color */
-	--textbrighter: 222,222,222; /* Brighter text color */
-	--textbright: 200,200,200; /* Bright text color */
-	--textdark: 160,160,160; /* Dark text color */
-	--textdarker: 125,125,125; /* Darker text color */
-	--textdarkest: 90,90,90; /* Darkest text color */
-	--background: url(https://choosie.de/lol.jpg); /* Background image URL */
-	--backgroundposition: center; /* Background position */
-	--backgroundsize: cover; /* Background size */	
-}
 
 
-/* Main Text Settings */
-.name__8d1ec { color: rgb(222,222,222); }  /* Muted Text Color */
+
+
 
 
 
@@ -147,21 +130,4 @@ barFill-2Bh7CX { background: var(--main-color); height: 100%; }
 	--settingsmodalheight: 80vh; /* Height for popout settings */
 }
 
-/* Radial Status Customizations */
-:root {
-	--rs-small-spacing: 2px; /* Spacing for small radial status */
-	--rs-medium-spacing: 3px; /* Spacing for medium radial status */
-	--rs-large-spacing: 4px; /* Spacing for large radial status */
-	--rs-small-width: 2px; /* Width for small radial status */
-	--rs-medium-width: 3px; /* Width for medium radial status */
-	--rs-large-width: 4px; /* Width for large radial status */
-	--rs-avatar-shape: 50%; /* Shape of avatar in radial status */
-	--rs-online-color: #43b581; /* Color for online status */
-	--rs-idle-color: #faa61a; /* Color for idle status */
-	--rs-dnd-color: #f04747; /* Color for do not disturb status */
-	--rs-offline-color: #636b75; /* Color for offline status */
-	--rs-streaming-color: #643da7; /* Color for streaming status */
-	--rs-invisible-color: #747f8d; /* Color for invisible status (only visible to you) */
-	--rs-phone-color: var(--rs-online-color); /* Color for phone status */
-	--rs-phone-visible: block; /* Visibility of phone icon next to user avatar */
-}
+
