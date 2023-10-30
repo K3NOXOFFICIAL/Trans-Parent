@@ -66,7 +66,7 @@ body, #app-mount .app-3xd6d0, #app-mount .scroller-WSmht3,
 #app-mount .applicationStore-2nk7Lo, #app-mount .pageWrapper-2PwDoS,
 #app-mount .pageWrapper-1x6lGh, #app-mount .scroller-2FKFPG,
 #app-mount .callContainer-HtHELf, #app-mount .standardSidebarView-E9Pc3j,
-#app-mount .callContainer_cbde45,
+#app-mount .callContainer_cbde45, #app-mount .privateChannels__93473,
 #app-mount .contentRegion-3HkfJJ {
 	background: transparent ;
 }
@@ -103,6 +103,7 @@ barFill-2Bh7CX { background: var(--main-color); height: 100%; }
 .iconBadge-32fMme.participating-2Z81oO { background-color: var(--main-color); }
 .circleIconButton-1VxDrg { color: var(--main-color); }
 .rtcConnectionQualityFine-3zZrSa .pingForeground-1BRBTc, .rtcConnectionStatusConnected-1c73OK { color: var(--main-color); }
+
 
 /* Popout Extension Customization */
 :root {
